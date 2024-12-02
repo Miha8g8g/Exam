@@ -11,7 +11,7 @@ def arithmetic_progression_sum(p):
     return sp
 
 if __name__ == "__main__":
-    # Здесь можно использовать дефолтное значение p или передать его через аргументы
-    p = 10  # Или задать вручную, например, 10
+    
+    p = 10  
     result = arithmetic_progression_sum(p)
     print(f"Сума перших {p} членів арифметичної прогресії: {result}")
