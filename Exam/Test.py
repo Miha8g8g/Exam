@@ -1,6 +1,5 @@
-
 import unittest
-from Exam import arithmetic_progression_sum  #
+from Exam import arithmetic_progression_sum
 
 class TestArithmeticProgressionSum(unittest.TestCase):
     def test_valid_input(self):
@@ -9,7 +8,7 @@ class TestArithmeticProgressionSum(unittest.TestCase):
         self.assertAlmostEqual(arithmetic_progression_sum(2), 6.0, places=7)  # Сума 2-х членів
         self.assertAlmostEqual(arithmetic_progression_sum(3), 12.0, places=7)  # Сума 3-х членів
         self.assertAlmostEqual(arithmetic_progression_sum(10), 110.0, places=7)  # Сума 10 членів
-        self.assertAlmostEqual(arithmetic_progression_sum(1000), 1002000.0, places=7)  # Сума 1000 членів
+        self.assertAlmostEqual(arithmetic_progression_sum(1000), 1001000.0, places=7)  # Сума 1000 членів
 
     def test_invalid_input(self):
         # Перевіряємо виключення для неправильного вводу

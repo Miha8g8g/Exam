@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Exam</Name>
     <RootNamespace>Exam</RootNamespace>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
